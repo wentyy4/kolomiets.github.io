@@ -14,8 +14,9 @@
       <span>Unchecked count: <span id="unchecked-count">0</span></span>
     </div>
     <button class="btn btn-primary mb-3" onClick="newTodo()">New TODO</button>
-    <ul id="todo-list" class="list-group">
-    </ul>
+    <div id="loading" style="display:none;">Loading...</div>
+    <div id="error" style="display:none;" class="text-danger">An error occurred. Please try again.</div>
+    <ul id="todo-list" class="list-group"></ul>
   </div>
   <script src="script.js"></script>
 </body>
